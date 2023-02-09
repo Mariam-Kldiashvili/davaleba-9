@@ -49,12 +49,54 @@ li:hover{
 
 
 .text1{
-    width: 1040px;
+    width: 80%;
     font-size: 64px;
     font-weight: 700px;
     color: #C0B4B4;
     text-align: center;
 }
+
+/* section2 */
+
+.section2{
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 90px 145px 140px 145px;
+    background-color: #393838;
+}
+   
+
+h1{
+    
+    font-size: 64px;
+    font-weight: 400px;
+    color:#FFFFFF;
+    display: flex;
+    justify-content: center;  
+    margin-bottom: 239px;
+}
+
+
+.cards{
+    max-width: 90%;
+    margin: 0 auto 20px auto;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 67px; */
+  
+}
+.card{
+    width:30%;
+    height: 522px;
+}
+
+.card:hover{
+    cursor: pointer;
+    box-shadow: 40px 40px 20px black;
+
+}
+
 
 
 
